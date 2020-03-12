@@ -1,0 +1,55 @@
+{
+  "name": "@britannica/cra-template",
+  "version": "0.0.0",
+  "description": "Britannica's create-react-app template",
+  "main": "template.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postpublish": "git push --follow-tags",
+    "prepare-release": "standard-version && prettier --write CHANGELOG.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/britannica/cra-template.git"
+  },
+  "keywords": [
+    "britannica",
+    "react",
+    "create-react-app",
+    "template"
+  ],
+  "author": "Ryan Walters",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/britannica/cra-template/issues"
+  },
+  "homepage": "https://github.com/britannica/cra-template#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.2.3",
+    "prettier": "^1.19.1",
+    "standard-version": "^7.1.0"
+  },
+  "standard-version": {
+    "skip": {
+      "commit": true
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "header-max-length": [
+        0,
+        "always"
+      ]
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+#[Settings]
+#ID = "<netlify-project-name>"
+
+[build]
+    publish = "build/"
+    command = "npm run build"
+
+[context.production.environment]
+    REACT_APP_ENV = "production"
+
+[context.master.environment]
+    REACT_APP_ENV = "qa"
