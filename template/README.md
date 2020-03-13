@@ -1,25 +1,3 @@
-# @britannica/react-starter
-
-> A set of defaults for Britannica's React apps
-
-## Why?
-
-As we ramp up our development efforts, many new projects are being created that require
-frontends. Generally, we've been bootstrapping these frontends using `create-react-app`,
-which gives us a great set of tools to build our apps. This project takes `create-react-app`
-one step further by adding a set of common dependencies and application structure, 
-allowing us to begin developing the features specific to our projects that much faster.
-
-## How to use
-
-1. `git clone git@github.com:britannica/react-starter.git new-project`
-1. `cd new-project`
-1. `git remote rm origin`
-1. `git remote add origin git@github.com:britannica/new-project.git`
-1. `git push -u origin master`
-
-*Note: Replace `new-project` with your project directory/repo name*
-
 ## Available Scripts
 
 In the project directory, you can run:
