@@ -2,6 +2,12 @@
 
 > Britannica's `create-react-app` template
 
+### Usage
+
+```bin
+$ npx create-react-app --template @britannica/cra-template
+```
+
 ### In the box
 - Built with Reactstrap
 - React Router w/ routing utility methods
@@ -26,8 +32,9 @@
   ```
 - Automatic linting on commit
 
-### Usage
-
-```bin
-$ npx create-react-app --template @britannica/cra-template
-```
+### To-do
+- [ ] Add Storybook configuration
+- [ ] Add stories for components
+- [ ] Add tests for components
+- [ ] Add `generate-react-cli.json` configuration
+- [ ] Remove `<Fragment />` from *.lazy.js files
