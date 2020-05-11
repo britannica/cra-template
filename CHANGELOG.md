@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/britannica/cra-template/compare/v1.1.0...v1.1.1) (2020-05-11)
+
+
+### Bug Fixes
+
+* set eslint@^6.6.0 for create-react-app ([d963e7b](https://github.com/britannica/cra-template/commit/d963e7bc045937da22da1b233b1103c69bd79dca))
+
 ## [1.1.0](https://github.com/britannica/cra-template/compare/v1.0.2...v1.1.0) (2020-05-11)
 
 
