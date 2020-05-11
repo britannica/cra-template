@@ -1,6 +1,6 @@
 {
   "name": "@britannica/cra-template",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Britannica's create-react-app template",
   "main": "template.json",
   "scripts": {
