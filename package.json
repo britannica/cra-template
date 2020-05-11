@@ -31,11 +31,6 @@
     "prettier": "^2.0.5",
     "standard-version": "^8.0.0"
   },
-  "standard-version": {
-    "skip": {
-      "commit": true
-    }
-  },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
