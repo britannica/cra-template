@@ -4,7 +4,6 @@
   "description": "Britannica's create-react-app template",
   "main": "template.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "postpublish": "git push --follow-tags",
     "prepare-release": "standard-version && prettier --write CHANGELOG.md"
   },
