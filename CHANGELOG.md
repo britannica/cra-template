@@ -1,5 +1,7 @@
 # Changelog
 
+**UPDATE, 9/4/20 | All versions past 1.1.1 will now be documented in the repo's [release page](https://github.com/britannica/cra-template/releases)**
+
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 ### [1.1.1](https://github.com/britannica/cra-template/compare/v1.1.0...v1.1.1) (2020-05-11)
